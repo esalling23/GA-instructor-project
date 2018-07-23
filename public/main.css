@@ -1,0 +1,32 @@
+body {
+  font-family: Helvetica;
+}
+
+#my-favorites {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.favorites {
+  border: 1px solid black;
+  padding: 4px;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.favorites:hover, .favorites:focus {
+  background: yellow;
+  cursor: pointer;
+}
+
+img {
+  display: inline;
+  float: left;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+.movie-item:hover, .movieItem:focus {
+  cursor: pointer;
+}
